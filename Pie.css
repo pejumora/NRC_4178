@@ -1,9 +1,11 @@
 /* Footer general */
 .footer {
-  background-color: #222; /* Fondo oscuro para contraste */
-  color: white;
+  background-color: #95b5f1; /* Fondo oscuro para contraste */
+  color: black;
   padding: 2rem 1rem;
   font-family: "Roboto", sans-serif;
+  border: 2px solid blue;
+  border-radius: 0.625rem;
 }
 
 /* Contenedor flexible para 3 columnas */
@@ -14,6 +16,7 @@
   flex-wrap: wrap;
   max-width: 1200px;
   margin: auto;
+  
   gap: 2rem;
 }
 
@@ -37,7 +40,7 @@
 
 .footer-links a {
   display: block;
-  color: #ccc;
+  color: #ffffff;
   text-decoration: none;
   margin: 0.3rem 0;
 }
